@@ -1,0 +1,14 @@
+Id: ProcessPaymentWorkflow
+Version: 1
+Steps:
+  - Id: Initialize
+    StepType: Initialize, workflow-start-dsl
+    NextStepId: ApplyDiscount
+  - Id: ApplyDiscount
+    StepType: ApplyDiscount, workflow-start-dsl
+    NextStepId: ApplyShipping
+  - Id: ApplyShipping
+    StepType: ApplyShipping, workflow-start-dsl
+    NextStepId: Finalize
+  - Id: Finalize
+    StepType: Finalize, workflow-start-dsl
