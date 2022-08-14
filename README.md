@@ -2,7 +2,7 @@
 
 Check out the CodeOmelet blog post for this project.
 
-Link: https://codeomelet.com/posts/workflow-core-with-dsl
+Link: https://codeomelet.com/posts/workflow-core-dsl-for-json-and-yaml
 
 ---
 
